@@ -275,6 +275,7 @@ body {
   height: 90vh;
 }
 .fathermodal-img {
+  position: relative;
   width: 47%;
   height: 100%;
 }
@@ -430,7 +431,7 @@ body {
   padding: 0;
   display: flex;
   justify-content: space-between;
-  width: 120%;
+  width: 95%;
   overflow: hidden;
 }
 .storis-item {
@@ -449,12 +450,44 @@ body {
 
 
 
+.video-player {
+  position: absolute;
+  font-size: 28px;
+  top: 12px;
+  right: 12px;
+  color: #a9a6a6;
+}
 
 
 
+/* ===================== hower heart ===================== */
+.hower-heart {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  font-size: 0.8px;
+  color: #fff;
+}
 
+.doubeclick {
+  animation-name: my;
+  animation-iteration-count: 1;
+  animation-duration: 0.4s; 
+  transition: all 0.3s ease;
+  transform-origin: center center;
+  animation-direction: alternate;
 
-
+}
+@keyframes my {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(200) ;
+    animation-delay: 1s;
+    transition-delay: 1s;
+  }
+}
 
 
 
