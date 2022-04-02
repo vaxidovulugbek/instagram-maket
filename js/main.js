@@ -4,7 +4,9 @@ let insta = [
     id:1,
     media:[
       
-       "https://cdn.i-scmp.com/sites/default/files/d8/images/methode/2020/06/24/cf9d675c-b1fe-11ea-953d-a7ecc5cbd229_image_hires_144326.jpg"
+       "https://cdn.i-scmp.com/sites/default/files/d8/images/methode/2020/06/24/cf9d675c-b1fe-11ea-953d-a7ecc5cbd229_image_hires_144326.jpg",
+       "https://img.bleacherreport.net/img/images/photos/003/712/274/hi-res-a0c51aef4a2034d893f8dd6c7ab5a832_crop_north.jpg?1512754475&w=3072&h=2048",
+       "https://imgresizer.eurosport.com/unsafe/1200x1200/smart/filters:format(jpeg)/origin-imgresizer.eurosport.com/2015/06/27/1624681-34491411-2560-1440.jpg",
       
     ],
     desc:`One of the world's most marketable and famous athletes`,
@@ -16,7 +18,9 @@ let insta = [
     id:2,
     media:[
     
-       "https://phantom-marca.unidadeditorial.es/17efa053312db15875d3e701e4af9686/resize/1320/f/jpg/assets/multimedia/imagenes/2022/03/07/16466366688435.jpg"
+       "https://phantom-marca.unidadeditorial.es/17efa053312db15875d3e701e4af9686/resize/1320/f/jpg/assets/multimedia/imagenes/2022/03/07/16466366688435.jpg",
+       "https://www.kindpng.com/picc/m/706-7068985_cristiano-ronaldo-free-png-image-cristiano-ronaldo-png.png",
+       "https://ronaldo.com/wp-content/uploads/2021/12/GettyImages-1237436700.jpg",
 
     ],
     desc:`Cristiano Ronaldo dos Santos Aveiro GOIH ComM (Portuguese pronunciation; born 5 February 1985)`,
@@ -29,6 +33,8 @@ let insta = [
     media:[
 
       "https://dm0qx8t0i9gc9.cloudfront.net/watermarks/video/NL0L5N5Rgimkt8edi/videoblocks-kazan-russia-18-june-2017-fifa-confederations-cup-2017-kazan-arena-stadium-match-mexico-portugal-wide-angle_suri6r4qb__39a41206888fac8e5ccd8ea6fa5c737b__P360.mp4",
+    
+     
 
     ],
     desc:`Cristiano Ronaldo dos Santos Aveiro GOIH ComM (Portuguese pronunciation; born 5 February 1985) `,
@@ -41,6 +47,8 @@ let insta = [
     media:[
       
       "https://images.beinsports.com/EcFZNJY8579FhTk5YJi4nwfbbP8=/full-fit-in/1000x0/ronaldo-cropped_1r634btzjoddx1aa49ghivwo7f.jpg",
+      "https://isport.ua/i/52/14/43/7/5214437/image_main/d2d368235bcae1335e4304f398215ef1-resize_crop_1Xquality_100Xallow_enlarge_0Xw_1200Xh_630.jpg",
+      "https://img.apester.com/preset:sharp/quality:100/resize:fit/gravity:ce/width:700/height:0/plain/user-images%2F56%2F56bad09fc195dfce0b39102e2fda9b49.jpg",
       
     ],
     desc:`He has played in and scored at 11 major tournaments `,
@@ -53,6 +61,8 @@ let insta = [
     media:[
       
         "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F20%2F2021%2F08%2F27%2Fchristiano-ronaldo-2.jpg&q=60.jpg",
+        "https://static01.nyt.com/images/2021/08/28/sports/27soccer-ronaldo-print/27soccer-ronaldo-1-mediumSquareAt3X.jpg",
+        "https://img.championat.com/news/big/p/i/krishtianu-ronaldu_1498217059681678537.jpg",
       
     ],
     desc:`Cristiano Ronaldo dos Santos Aveiro GOIH ComM `,
@@ -65,6 +75,8 @@ let insta = [
     media:[
       
       "https://as01.epimg.net/en/imagenes/2019/06/22/football/1561194508_818748_1561196404_noticia_normal_recorte1.jpg",
+      "https://i2-prod.manchestereveningnews.co.uk/incoming/article21440500.ece/ALTERNATES/s1200c/0_GettyImages-1234897402.jpg",
+      "https://library.sportingnews.com/2021-08/cristiano-ronaldo-paulo-dybala-juventus_131qlu89pwlyv1lyplzeoo1hgr.jpg",
         
     
     ],
@@ -78,6 +90,8 @@ let insta = [
     media:[
     
       "https://cdn.wionews.com/sites/default/files/styles/story_page/public/2020/06/05/143417-untitled-design-54.jpg",
+      "https://rus.team/images/article/23695/avatar_16x9.webp?actual=1577218822",
+      "https://www.thesun.co.uk/wp-content/uploads/2018/12/NINTCHDBPICT000456590071.jpg",
        
     
     ],
@@ -90,6 +104,8 @@ let insta = [
     id:8,
     media:[
         "https://i2-prod.manchestereveningnews.co.uk/incoming/article21470519.ece/ALTERNATES/s615/0_Untitled-4.png",
+        "https://hdfreewallpaper.net/wp-content/uploads/2020/08/ronaldo-hd-images.jpg",
+        "https://image.winudf.com/v2/image1/eWFsaWxpeWFhYS5mb3J5b3UuY29tLmNyb25hbGRveWFsbF9zY3JlZW5fMF8xNTQ5MTIyMjAyXzA2OQ/screen-0.jpg?h=500&fakeurl=1&type=.jpg",
 
     ],
     desc:`He won back-to-back Ballons d'Or in 2013 and 2014`,
@@ -119,6 +135,8 @@ let modaladd = document.querySelector("#modaladding")
 
 
 let elList = document.querySelector("#list")
+
+
 insta.forEach((item,index) =>{
   let li = document.createElement("li");
   li.className = "main-item item";
@@ -134,7 +152,7 @@ insta.forEach((item,index) =>{
         <div class="modal-body">
         <div class="fathermodal-img">
           <video class="modal-img" controls >
-            <source src="${item.media[0]}" type="video/mp4" >
+            <source src="${item.media}" type="video/mp4" >
             <div class="hower-heart"><i class='bx bxs-heart'></i></div>
           </video>
         </div>
@@ -257,10 +275,28 @@ insta.forEach((item,index) =>{
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-body">
-        <div class="fathermodal-img">
-          <img class="modal-img" src="${item.media[0]}" alt=""> 
-          <div class="hower-heart"><i class='bx bxs-heart'></i></div>
-        </div> 
+  
+          <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
+            <div class="carousel-inner">
+              <div class="carousel-item active fathermodal-img">
+                <img class="modal-img" src="${item.media[0]}" alt="...">
+              </div>
+              <div class="carousel-item fathermodal-img">
+                <img class="modal-img" src="${item.media[1]}" alt="...">
+              </div>
+              <div class="carousel-item fathermodal-img">
+                <img class="modal-img" src="${item.media[2]}" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
           <div class="modal-info">
             <div class="modal-info-el">
               <div class="modal-info-cont">
@@ -374,8 +410,8 @@ insta.forEach((item,index) =>{
     </div>
     `
   }
-  modaladd.appendChild(div)
 
+  modaladd.appendChild(div)
 
   if(item.media[0].includes('.mp4')){
     
@@ -413,12 +449,9 @@ insta.forEach((item,index) =>{
   }
   idxx++
   idbtn++
-  // console.log(idbtn);
   elList.appendChild(li);
 }) 
 
-// let idbtns = document.querySelector("#4")
-// console.log(idbtns);
 
 
 
@@ -445,14 +478,6 @@ elInfoSaved.addEventListener("click",() => {
   ellist2.classList.add("shouw")
 })
 
-
-
-// let elmodalinfobtn = document.querySelectorAll(".modal-info-btn")
-// elmodalinfobtn.forEach((el) => {
-//   el.addEventListener("click",() => {
-//     console.log("hello");
-//   })  
-// })
 
 let bookmCount = 0
 let elmodalinfobtn = document.querySelectorAll(".modal-info-btn")
